@@ -55,3 +55,12 @@ dist/
 
 # OS
 .DS_Store
+
+# Virtual environments
+backend/env/
+
+# Angular cache
+.angular/
+
+# Node modules
+node_modules/
