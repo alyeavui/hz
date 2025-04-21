@@ -1,66 +1,36 @@
 *.pyc
-__pycache__/
 *.pyo
 *.pyd
+__pycache__/
 *.db
 *.sqlite3
 *.log
 
-# Django stuff:
+# Django-specific
 db.sqlite3
-*.log
-
-# Virtual env
-env/
-venv/
-ENV/
+media/
+staticfiles/
 .env
 .env.*
 
-# Media / Static
-/media/
-staticfiles/
+env/
+venv/
+ENV/
+backend/env/
 
-# Migrations (optional — keep if needed)
 **/migrations/*.pyc
 **/migrations/__pycache__/
 
-# === ANGULAR ===
-/frontend/node_modules/
-/frontend/dist/
-/frontend/.angular/cache/
-/frontend/.env
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/cache/
+frontend/.env
 
-# === IDEs ===
 .vscode/
 .idea/
 
-# === OS ===
 .DS_Store
 Thumbs.db
 
-# === Git ===
 .gitignore
 
-# Python
-venv/
-__pycache__/
-*.py[cod]
-*.sqlite3
-
-# Node
-node_modules/
-dist/
-.env
-
-# OS
-.DS_Store
-
-# Virtual environments
-backend/env/
-
-# Angular cache
-.angular/
-
-# Node modules
-node_modules/
